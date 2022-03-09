@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" class="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Bangers&family=Comforter&family=Comforter+Brush&family=Croissant+One&family=Josefin+Slab:wght@100&family=Merriweather:ital@0;1&family=Pacifico&family=Roboto:wght@400;700&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+
+  <title>YouTube</title>
+</head>
+<body>
+ 
+  <header class="header">
+
+   
+      <a href="#">
+        <img src="menu.svg" alt="menu bar" class="menu-bar"/>
+      </a>
+    
+    <a href="#">
+      <img src="logo.svg" alt="Youtube Logo" class="youtube-logo" />
+    </a>
+    <form class="search-bar">
+      <input class="search-input" type="search" placeholder="Search" aria-label="Search" />
+      <button type="submit" class="search-btn">
+        <img src="magnify.svg" />
+      </button>
+    </form>
+    <div class="menu-icons">
+      <a href="#">
+        <img src="video-plus.svg" alt="Upload Video" />
+      </a>
+      <a href="#">
+        <img src="apps.svg" alt="Apps" />
+      </a>
+      <a href="#">
+        <img src="bell.svg" alt="Notifications" />
+      </a>
+      <a href="#">
+        <img class="menu-channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="Your Channel" />
+      </a>
+    </div>
+  </header>
+  
+  <div class="total">
+  <div class="categories">
+    <section class="category-section">
+      <button class="category active">All</button>
+      <button class="category">Category 1</button>
+      <button class="category">Category 2</button>
+      <button class="category">Category 3</button>
+      <button class="category">Category 4</button>
+      <button class="category">Category 5</button>
+      <button class="category">Category 6</button>
+      <button class="category">Category 7</button>
+      <button class="category">Category 8</button>
+      <button class="category">Category 9</button>
+    </section>
+  </div>
+  <div class="videos">
+
+
+    <!-- SIDE BAR -->
+    
+      <div class="sidebar">
+        <div class="sidebar--categories">
+          <div class="sidebar--category">
+            <img class="home" src="/home.svg" alt="error with home"/>
+            <span>Home</span>
+          </div>
+          <div class="sidebar--category">
+            <img class="home" src="/fire.svg" alt="error with home"/>
+            <span>Trending </span>
+          </div>
+          <div class="sidebar--category">
+            <img class="home" src="/subscriptions.svg" alt="error with home"/>
+            <span>Subscriptions</span>
+          </div>
+        </div>
+        <hr />
+
+        <div class="sidebar--categories">
+          <div class="sidebar--category">
+            <img class="home" src="/Library.svg" alt="error with home"/>
+            <span>Librery</span>
+          </div>
+          <div class="sidebar--category">
+            <img class="home" src="/history.svg" alt="error with home"/>
+            <span>History </span>
+          </div>
+          <div class="sidebar--category">
+            <img class="home" src="/your videos.svg" alt="error with home"/>
+            <span>Your videos</span>
+          </div>
+          <div class="sidebar--category">
+            <img class="home" src="/your movies.svg" alt="error with home"/>
+            <span>Your movies</span>
+          </div>
+          <div class="sidebar--category">
+            <img class="home" src="/watch_later.svg" alt="error with home"/>
+            <span>Watch later</span>
+          </div>
+        </div>
+        
+      </div>
+      <!-- videos section -->
+
+    <section class="video-section">
+      
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://picsum.photos/36/36?gravity=center" alt="error" >
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://picsum.photos/36/36?gravity=center" alt="error">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://picsum.photos/36/36?gravity=center" alt="error" >
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://picsum.photos/36/36?gravity=center" alt="error" >
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    
+    <!-- videos section -->
+
+    
+      
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>2 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://picsum.photos/36/36?gravity=center" alt="error" >
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>3 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://picsum.photos/36/36?gravity=center" alt="error">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>4 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://picsum.photos/36/36?gravity=center" alt="error" >
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>5 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://picsum.photos/36/36?gravity=center" alt="error" >
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>6 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+   
+    <!-- videos section -->
+
+   
+      
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>7 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>8 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://picsum.photos/36/36?gravity=center" alt="error" >
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://picsum.photos/36/36?gravity=center" alt="error">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://picsum.photos/36/36?gravity=center" alt="error" >
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://picsum.photos/36/36?gravity=center" alt="error" >
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <div>
+      <p>hola</p>
+    </div>
+    
+    </div>
+    
+    <h2>Special Section</h2>
+<!-- special section -->
+<div class="videos">
+  
+<!-- side bar 2 -->
+
+<div class="sidebar">
+  <div class="sidebar--categories">
+    <div class="sidebar--category">
+      <img class="home" src="/youtubeBlack.svg" width="40px" height="70px"  alt="error with home"/>
+      <span>YouTube Premium</span>
+    </div>
+    <div class="sidebar--category">
+      <img class="home" src="/your movies.svg" alt="error with home"/>
+      <span>Movies & Shop </span>
+    </div>
+    <div class="sidebar--category">
+      <img class="home" src="/games.svg" alt="error with home"/>
+      <span>Gaming</span>
+    </div>
+    <div class="sidebar--category">
+      <img class="home" src="/online.svg" alt="error with home"/>
+        <span>Live</span>    
+    </div>
+  <hr />
+
+  </div>
+  <hr />
+</div>
+
+<!-- spacial section -->
+    
+<section class="video-section">
+      
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://picsum.photos/36/36?gravity=center" alt="error" >
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="video-container">
+        <a href="#" class="thumbnail" 
+        data-duration ="12:24">
+          <img class="thumbnail-image" src="https://picsum.photos/250/150?gravity=center" alt="Error with the dog" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img src="https://picsum.photos/36/36?gravity=center" alt="error" class="channel-icon">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel1 Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    
+  </div>
+</div>
+</div>
+</body>
+</html>
